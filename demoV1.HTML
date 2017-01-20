@@ -15,6 +15,8 @@
 	</div>
 </div>
 <script type="text/javascript">
+var time=new Date().getHours(); //获取当前小时 24小时
+var d=new Date().getDay();  //获取星期几
 var well="I like him";
 var one=well.length;
 var two=well.indexOf();
@@ -26,6 +28,39 @@ console.log(two);
 console.log(three);
 console.log(four);
 console.log(five); 
+
+
+
+switch (d){
+	case 0 :
+		console.log("Today it's Sunday");
+		break;
+	case 1:
+		console.log("Today it's Monday");
+		break;
+	case 2:
+		console.log("Today it's Tuesday");
+		break;
+	case 3:
+		console.log("Today it's Wednesday");
+		break;
+	case 4:
+		console.log("Today it's Thursday");
+		break;
+	case 5:
+		console.log("Toady it's Firday");
+		break;
+	case 6:
+		console.log("Today it's Saturday");
+		break;
+	default :
+		console.log("what a very nice day");
+}
+var cars=[1,0,0,0,0,0,4545,4548,454,7878,447,7878,554,4545];
+for (var i=0;i<cars.length;i++)
+{
+	console.log(cars[i]);
+}
 
 </script>
 </body>
