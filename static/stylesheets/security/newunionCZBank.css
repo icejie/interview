@@ -1,0 +1,53 @@
+@charset "utf-8";
+.ZTmain{background:#1371ef; color:#fff; line-height:30px;font-size:16px;}
+.ZTicon{position:absolute;display:block;background:url(../../images/zt/nuActivity20160603/icon_2.png) no-repeat;}
+.ZTbox{width:1080px; margin:0 auto; position:relative;}
+.Animbox{display:none;}
+.AnimDivShow .Animbox{display:block;}
+.ZTh{ color:#203c5a; font-size:16px;}
+.ZTh h2{ font-size:28px; font-weight:bold; line-height:40px;}
+.ZTh span{display:block; width:75px; height:5px; background:#203c5a; margin-top:10px;}
+.ZTbg1,.ZTbg1 .ZTbox{height:855px;background:url(../../images/zt/newunionCZBank/bg01.jpg) top center no-repeat; position:relative; overflow:hidden;}
+.ZTlogo{position:absolute; width:100%; height:140px; top:0;left:0;background:url(../../images/zt/newunionCZBank/logobg.png) top center no-repeat; z-index:10;}
+.ZTlogo .ZTbox{ height:140px;background:url(../../images/zt/newunionCZBank/logo.png) center no-repeat;}
+.ZTtitle{position:absolute;background:url(../../images/zt/newunionCZBank/title1.png) no-repeat;width:505px; height:180px;top:400px; left:50%;  margin-left:-252px; z-index:11;}
+.ZTbg2{ background:#f7f7f8; padding:60px 0;}
+.ZTbg2 .ZTbox{height:500px;}
+.ZTbg2 .fl{width:396px; height:556px;background:url(../../images/zt/newunionCZBank/pic01.jpg) no-repeat; margin:-80px 0 0 70px;}
+.ZTbg2 .fr{width:330px; padding-right:150px; }
+.ZTbg2 .fr ul{display:block; margin-top:50px; padding-left:25px;background:url(../../images/zt/newunionCZBank/icon01.png) no-repeat; color:#424242;}
+.ZTbg2 .fr ul li{height:85px; line-height:20px;}
+.ZTbg2 .fr ul li span{color:#888;}		
+.ZTbg3{ background:#203c5a; padding:100px 0; height:950px;}
+.ZTbg3 .ZTpic1{width:500px; height:500px;background:url(../../images/zt/newunionCZBank/pic02.jpg) no-repeat;}
+.ZTbg3 .ZTpic2{width:500px; height:500px;background:url(../../images/zt/newunionCZBank/pic03.jpg) no-repeat;}
+.ZTbg3 .ZTtext{padding:50px 40px; width:450px; height:300px; background:#27425f; color:#6f7c8d; margin-top:15px;}
+.ZTbg3 .ZTh{color:#ab8244;}
+.ZTbg3 .ZTh span{background:#ab8244;}
+.ZTbg4{background:#f7f7f8; padding:90px 0;}
+.ZTbg4 .ZTh{text-align:center;}
+.ZTbg4 .ZTh span{margin:10px auto 0;}
+.ZTbg4 .ZTbox{height:450px; }
+.ZTbg4 li{padding-top:210px; width:300px; margin:0 30px; text-align:center; color:#424242}
+.ZTbg4 li b{color:#203c5a}
+.ZTbg4 li.ZTpic1{background:url(../../images/zt/newunionCZBank/pic04.jpg) no-repeat;}
+.ZTbg4 li.ZTpic2{background:url(../../images/zt/newunionCZBank/pic05.jpg) no-repeat;}
+.ZTbg4 li.ZTpic3{background:url(../../images/zt/newunionCZBank/pic06.jpg) no-repeat;}
+.ZTbg5{background:#fff; padding:90px 0;}
+.ZTbg5 .ZTh{text-align:center;}
+.ZTbg5 .ZTh span{margin:10px auto 0;}
+.ZTbg5 .ZTbox{min-height:1060px; }
+.ZTbg5 .ZTpic{width:1000px; height:280px; margin:40px auto 0;background:url(../../images/zt/newunionCZBank/pic07.jpg) no-repeat;}
+.ZTbg5 .ZTtap{border:1px solid #bebebe;}
+.ZTtaph{height:80px;}
+.ZTtaph li{width:50%;}
+.ZTtaph li a{display:block;height:79px; line-height:79px; border-bottom:1px solid #bebebe; text-align:center; background:#f7f7f8; font-size:28px; color:#999;}
+.ZTtaph li.active a{color:#203c5a;	border-color:#fff; background:#fff;}
+.ZTtapBox{padding:40px 60px;}
+.ZTtapBoxn{display:none;}
+.ZTtapn{border-bottom:1px solid #ddd; height:60px; text-align:center; font-size:18px;}
+.ZTtapn li{width:150px; padding:15px 0 12px; line-height:30px;}
+.ZTtapn li a {border-right:1px solid #ddd;display:block;}
+.ZTtapn li.active{border-bottom:3px solid #203c5a;}
+.ZTtapn li.active a{color:#203c5a;}
+.ZTtapBoxbn{display:none; padding:30px 0; text-align:center;}

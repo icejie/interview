@@ -1,0 +1,24 @@
+@charset "utf-8";
+.ZTfongkkong{ width:100%; height:100%; background:#fff;}
+.ZTHead{ height:380px; background:url(../../images/zt/fengkong/headBG.jpg) top center no-repeat;}
+.ZTContent.bg00{background:url(../../images/zt/fengkong/bg00.jpg) #f4f0e6;}
+.ZTContent.bg01{background:url(../../images/zt/fengkong/bg01.jpg) top center no-repeat #a1cec6; min-height:1000px; padding-top:40px;}
+.bg02{width:908px;height:886px;background:url(../../images/zt/fengkong/bg02.png) no-repeat; position:relative; padding-bottom:60px;}
+.bg02 a{display:block; position:absolute;width:13px;height:13px;}
+.bg02 a i{display:none;width:24px;height:9px;position:absolute; left:-5px;}
+.bg02 a span{position:absolute; background:#c6e2dd;border-radius: 8px;padding:8px 15px; height:34px; line-height:17px;white-space:nowrap;display:none;}
+.bg02 a:hover span{color:#3c3c3b; display:inline;}
+.bg02 a:hover i{display:block;}
+a.btnUp i{top:-10px;background:url(../../images/zt/fengkong/arowUp.png) no-repeat;}
+a.btnDown i{top:14px;background:url(../../images/zt/fengkong/arowDown.png) no-repeat;}
+a.btnUp span{top:-60px;}
+a.btnDown span{top:23px;}
+.ZTContent.bg03{background:url(../../images/zt/fengkong/bg03.jpg) top center no-repeat #f9f6ee;height:850px;}
+.ZTFooter{line-height:30px; font-size:16px;background:#ececec; padding:30px 0;}
+.ZTBox{ width:1000px; margin:0 auto;}
+.ZTtitle{font-size:22px; font-weight:bold; margin-top:30px; line-height:50px;}
+.ZTFloatBox{float:left;width:450px; padding:30px 0 0;}
+.ZTFloatBox p span{background:#6072a1;border-radius:50%;color: #fff;font-size: 13px;margin-right: 4px;padding:2px 8px; font-weight:bold;}
+#ZTlayer1{width:350px;min-height:300px;padding:0 10px;border-radius:5px; background:#ececec;position: fixed;left: 50%;top: 50%;margin-left: -185px;	margin-top:-150px;overflow: hidden;z-index: 101;display: none;}
+.layer_title_c{text-align:right;font-size:20px; font-weight:bold;}
+.ZTtips{color:red; text-align:center;}

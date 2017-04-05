@@ -1,0 +1,27 @@
+.about_partner_list{}
+.about_partner_list li{display:inline;float:left;margin:35px 80px 0 0;}
+.about_partner_list.about_partner_logo li{width:280px;height:65px;background:url(../../images/aboutus/partner_icon_new.jpg) no-repeat;}
+.about_partner_list li a{display:block;width:100%;height:100%;}
+.about_partner_list li a:hover{box-shadow:inset 1px 1px 4px #d9d9d9;-webkit-box-shadow:inset 1px 1px 4px #d9d9d9;-moz-box-shadow:inset 1px 1px 4px #d9d9d9;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;}
+.about_partner_logo li.partner_huaxia,.partner_huaxia{background-position:left 0px;}
+.about_partner_logo li.partner_hzzj,.partner_hzzj{background-position:left -81px;}
+.about_partner_logo li.partner_hydd,.partner_hydd{background-position:left -162px;}
+.about_partner_logo li.partner_payh,.partner_payh{background-position:left -242px;}
+.about_partner_logo li.partner_zzxed,.partner_zzxed{background-position:left -324px;}
+.about_partner_logo li.partner_dwcan,.partner_dwcan{background-position:left -404px;}
+.about_partner_logo li.partner_xinmi,.partner_xinmi{background-position:left -485px;}
+.about_partner_logo li.partner_hydb,.partner_hydb{background-position:left -870px;}
+.about_partner_logo li.partner_lsr,.partner_lsr{background-position:left -643px;}
+.about_partner_logo li.partner_boxin,.partner_boxin{background-position:left -562px;}
+.about_partner_logo li.partner_xinrui,.partner_xinrui{background-position:left -716px;}
+.about_partner_logo li.partner_quanda,.partner_quanda{background-position:left -793px;}
+.about_partner_logo li.partner_huayin,.partner_huayin{background-position:left -947px;}
+.about_partner_logo li.partner_wuyuan,.partner_wuyuan{background-position:left -1024px;}
+.about_partner_logo li.partner_zhujian,.partner_zhujian{background-position:left -1101px;}
+.about_partner_logo li.partner_hengsheng,.partner_hengsheng{background-position:left -1171px;}
+.about_partner_logo li.partner_taodangbao,.partner_taodangbao{background:url(../../images/aboutus/partner_tdp.jpg) no-repeat;width:280px;height:65px;}
+.about_partner_logo li.partner_hengtian,.partner_hengtian{background:url(../../images/aboutus/partner_hengtian.jpg) no-repeat;width:280px;height:65px;}
+.about_partner_logo li.partner_huayue,.partner_huayue{background:url(../../images/aboutus/partner_huayue.jpg) no-repeat;width:280px;height:65px;}
+.about_partner_logo li.partner_xunjie,.partner_xunjie{background:url(../../images/aboutus/partner_xunjie.jpg) no-repeat;width:280px;height:65px;}
+.about_partner_logo li.partner_jiajun,.partner_jiajun{background:url(../../images/aboutus/partner_jiajun.jpg) no-repeat;width:280px;height:65px;}
+.aboutPai{background:url(../../images/aboutus/aboutBg.jpg) top center no-repeat;padding-top:76px;height:507px;}

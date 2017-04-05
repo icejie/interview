@@ -1,0 +1,26 @@
+@charset "utf-8";
+.ZTcpic{background:url(../../images/zt/cpic/bg.jpg) center no-repeat #fff; line-height:30px; font-size:16px;}
+.ZTHead{ height:480px; background:url(../../images/zt/cpic/header.jpg) top center no-repeat;}
+.ZTBox{ width:970px; background:#fff; margin:0 auto;position:relative; padding:0 15px 50px;}
+.ZTTitle{ font-size:30px;line-height:60px; text-align:center; padding:50px 0 40px;}
+.ZTTitle span{border-bottom:1px solid #48aee9; padding-bottom:10px;}
+.Flist li{float:left; display:inline; width:32%;font-size:16px; text-align:center;}
+.Flist li b{display:block; width:148px; height:148px; margin:20px auto; background:url(../../images/zt/cpic/icon.jpg) no-repeat;}
+.Flist1 p{ font-size:24px;}
+.Flist1 span{ font-size:30px; color:#e16932;}
+.Flist1 .Flistb b{background-position:0 -148px;}
+.Flist1 .Flistc b{background-position:0 -296px;}
+.Flist2{border:1px solid #dcdcdc; height:380px;}
+.Flist2 li{ height:380px;}
+.Flist2 span{font-size:30px;}
+.Flist2 i{font-style:normal; font-size:20px; color:#fff;background:#000; border-radius: 8px;padding:3px 8px; margin-right:8px;}
+.Flist2 p{padding:15px 40px 0; text-align:left;}
+.Flist2 .Flista b{background-position:0 -444px;}
+.Flist2 .Flistb b{background-position:0 -592px;}
+.Flist2 .Flistc b{background-position:0 -740px;}
+.auditBox{background:#fff;height:265px;margin-bottom:100px;display:inline;}
+.auditBox ul{float:left;}
+.auditBox ul li{float:left;width:258px;margin:20px 61px 0 18px;}
+.auditBox ul li a{float:left;width:256px;height:160px;border:1px solid #cecece}
+.auditBox ul li a img{display:block;}
+.auditBox ul li h2{line-height:35px;color:#666666;font-size:14px;text-align:center;}

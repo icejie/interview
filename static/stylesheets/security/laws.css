@@ -1,0 +1,14 @@
+@charset "utf-8";
+.ZTlaws{ width:100%; height:100%; background:#fffaee; font-size:14px; line-height:25px;}
+.ZTHead{ height:350px; background:url(../../images/zt/laws/headBG.jpg) top center no-repeat;}
+.ZTContent.bg{background:#e9f5f1;}
+.ZTBox{ width:1000px; margin:0 auto;position:relative; padding:50px 0 30px;}
+span.ZTBox_Num{display:block;width:65px; text-align:center; height:65px;position:absolute; font-size:30px; line-height:65px; top:-30px;left:0;border-radius:50%;font-weight:bold; color:#938c5b; background:#fffaee;}
+.bg span.ZTBox_Num{color:#7fa68d;background:#e9f5f1;}
+.ZTlaws h2{font-size:30px; font-weight:bold; line-height:50px; color:#938c5b; padding-bottom:20px;}
+.ZTlaws .bg h2{color:#7fa68d;}
+.ZTFloatBox{float:left;width:450px; padding:30px 0 0;}
+.ZTFloatBox p span{background:#6072a1;border-radius:50%;color: #fff;font-size: 13px;margin-right: 4px;padding:2px 8px; font-weight:bold;}
+#ZTlayer1{width:350px;min-height:300px;padding:0 10px;border-radius:5px; background:#ececec;position: fixed;left: 50%;top: 50%;margin-left: -185px;	margin-top:-150px;overflow: hidden;z-index: 101;display: none;}
+.layer_title_c{text-align:right;font-size:20px; font-weight:bold;}
+.ZTtips{color:red; text-align:center;}

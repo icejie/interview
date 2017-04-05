@@ -1,0 +1,628 @@
+body {
+    background: #f6f6f6;
+}
+
+#footer {
+    margin-top: 0;
+}
+
+.nuplan {
+    font-size: 16px;
+    color: #000;
+    display: block;
+}
+
+.nuplan_box {
+    width: 1080px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.nuplan_header {
+    height: 498px;
+    background:url(${basePath3}images/zt/nuplan/nuBanner.jpg) top center no-repeat;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    z-index: 3;
+}
+
+.nuplan_header i {
+    position: absolute;
+}
+
+.nuplan_header .bannerImg1 {
+    background:url(${basePath3}images/zt/nuplan/bannerImg1.png) top center no-repeat;
+    width: 302px;
+    height: 94px;
+    top: 61px;
+    right: 50%;
+    margin-right: 194px;
+    z-index: 22;
+    opacity: 0;
+}
+
+.nuplan_header .bannerImg2 {
+    background:url(${basePath3}images/zt/nuplan/bannerImg2.png) top center no-repeat;
+    width: 302px;
+    height: 106px;
+    top: 163px;
+    right: 50%;
+    margin-right: 194px;
+    z-index: 22;
+    opacity: 0;
+}
+
+.nuplan_header .bannerImg3 {
+    background:url(${basePath3}images/zt/nuplan/bannerImg3.png) top center no-repeat;
+    width: 689px;
+    height: 465px;
+    top: 0;
+    right: 50%;
+    margin-right: -463px;
+    z-index: 22;
+    opacity: 0;
+}
+
+.nuplan_header .bannerImg4 {
+    background:url(${basePath3}images/zt/nuplan/bannerImg4.png) top center no-repeat;
+    width: 689px;
+    height: 465px;
+    top: 0;
+    right: 50%;
+    margin-right: -463px;
+    z-index: 999;
+    opacity: 0;
+}
+
+.nuplan_header .bannerImg5 {
+    background:url(${basePath3}images/zt/nuplan/bannerImg5.png) top center no-repeat;
+    width: 689px;
+    height: 512px;
+    bottom: -3%;
+    right: 50%;
+    margin-right: -463px;
+    z-index: 22;
+    opacity: 0;
+}
+
+.cls {
+    clear: both;
+    line-height: 0!important;
+    height: 0!important;
+    font-size: 0!important;
+}
+
+.wrap {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.one {
+    background: #fff;
+    width: 100%;
+}
+.w_100 {
+    width: 100%;
+}
+
+.nuplanList-2 {
+    width: 100%;
+    float: left;
+    margin: 72px 0;
+    display: inline;
+}
+
+.nuplanList-2 li {
+    float: left;
+    width: 268px;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 342px;
+    border-top: none;
+    margin-right: 9px;
+    display: inline
+}
+
+.nuplanList-2 li h2 {
+    float: left;
+    width: 100%;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    height: 68px;
+    line-height: 68px;
+    background:url(${basePath3}images/zt/nuplan/icon-1.jpg) top center repeat-y;
+}
+
+.nuplanList-2 li h3,
+.nuplanList-2 li h4,
+.nuplanList-2 li span,
+.jdutiao {
+    float: left;
+    width: 220px;
+    padding: 0 26px;
+    color: #3878ad;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+}
+
+.nuplanList-2 li h3 {
+    text-align: center;
+    padding-top: 18px;
+}
+
+.nuplanList-2 li h3 i {
+    color: #ff6559;
+    border: 1px solid #ff6559;
+    padding: 0 3px;
+    font-size: 12px;
+    font-style: normal;
+    margin-left: 5px;
+}
+
+.nuplanList-2 li h4 {
+    font-size: 60px;
+    color: #fb7e22;
+    text-align: center;
+    padding: 19px 26px 30px 26px;
+}
+
+.nuplanList-2 li h4 i {
+    font-size: 36px;
+    font-style: normal;
+}
+
+.jdutiao i {
+    width: 167px;
+    height: 4px;
+    border: 1px solid #e8e8e8;
+    background: #e8e8e8;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: 13px;
+    display: inline;
+}
+
+.jdutiao em {
+    height: 4px;
+    background: #3d8be4;
+}
+
+.jdutiao b {
+    color: #999999;
+    font-weight: normal;
+}
+
+.btn-touz {
+    width: 194px;
+    text-align: center;
+    background: #fb7e22;
+    font-size: 14px;
+    line-height: 39px;
+    height: 39px;
+    color: #fff;
+    margin: 15px 0 0 36px;
+    display: inline;
+    border-radius: 3px;
+}
+
+.btn-touz:hover {
+    color: #fff;
+    background: #ff873a;
+}
+
+.nuplanList-2 li.iconbg2 h2 {
+    background:url(${basePath3}images/zt/nuplan/icon-2.jpg) top center repeat-y;
+}
+
+.nuplanList-2 li.iconbg3 h2 {
+    background:url(${basePath3}images/zt/nuplan/icon-3.jpg) top center repeat-y;
+}
+
+.nuplanList-2 li.iconbg4 h2 {
+    background:url(${basePath3}images/zt/nuplan/icon-4.jpg) top center repeat-y;
+}
+
+.nuplanList-2 li.iconbg4 {
+    margin-right: 0;
+}
+
+.btn-touz2 {
+    background: #d6d6d6;
+}
+
+.btn-touz2:hover {
+    color: #fff;
+    background: #d6d6d6;
+}
+
+.nuplanTitle {
+    background:url(${basePath3}images/zt/nuplan/iconBG.jpg) bottom center no-repeat;
+    color: #333333;
+    font-size: 24px;
+    line-height: 85px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.btnJi {
+    cursor: pointer;
+    color: #fb7e22;
+    border: 1px solid #fb7e22 !important;
+    text-align: center;
+    width: 104px;
+    height: 39px;
+    line-height: 30px;
+    background: none;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.btnJi.hover {
+    background: #fff2e8;
+}
+
+.numberBox {
+    position: relative;
+    width: 401px;
+    color: #fb7e22;
+    border: 1px solid #fb7e22 !important;
+    height: 37px;
+    line-height: 36px;
+    border-radius: 3px;
+    margin-right: 12px;
+    display: inline;
+}
+
+.numberBox input {
+    float: left;
+    border: none;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 20px;
+    width: 322px;
+    font-size: 14px;
+    color: #333;
+}
+
+.nuplanBox {
+    padding: 43px 0 65px 232px;
+    width: 617px;
+}
+
+.nuplanBox h2 {
+    font-size: 18px;
+    color: #666666;
+    float: left;
+    width: auto;
+    line-height: 39px;
+    padding-right: 20px;
+}
+
+.numberBox b {
+    float: left;
+}
+
+.numberTis {
+    position: absolute;
+    bottom: -36px;
+    left: 0;
+    z-index: 333;
+    color: #ff0000;
+    font-size: 12px;
+    font-weight: normal;
+    display: none;
+}
+
+.numberList {
+    padding-top: 68px;
+}
+
+.numberList li {
+    float: left;
+    width: 592px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    padding: 0 0 0 25px;
+    position: relative
+}
+
+.numberList li span {
+    color: #44cdfb;
+    font-weight: normal;
+}
+
+.numberList li label {
+    color: #333333;
+    font-weight: normal;
+    position: absolute;
+    top: 0;
+    left: 513px;
+    width: 228px;
+}
+
+.numberList li.bai2 span {
+    color: #2cb9f3;
+}
+
+.numberList li.bai3 span {
+    color: #2ba5f3;
+}
+
+.numberList li.bai4 span {
+    color: #3c8be3;
+}
+
+.numberList li .jdutiao {
+    width: 401px;
+    margin-top: 0;
+}
+
+.numberList li .jdutiao i {
+    border: none;
+    background: none;
+}
+
+.numberList li.bai1 .jdutiao i {
+    width: 401px
+}
+
+.numberList li.bai2 .jdutiao i {
+    width: 281px
+}
+
+.numberList li.bai3 .jdutiao i {
+    width: 211px
+}
+
+.numberList li.bai4 .jdutiao i {
+    width: 150px
+}
+
+.numberList li.bai1 .jdutiao em {
+    background: #44cdfb
+}
+
+.numberList li.bai2 .jdutiao em {
+    background: #2cb9f3
+}
+
+.numberList li.bai3 .jdutiao em {
+    background: #2ba5f3
+}
+
+.numberList li.bai4 .jdutiao em {
+    background: #3c8be3
+}
+
+.nuplanList-2 li.iconbg1 .jdutiao em {
+    background: #3d8be4;
+}
+
+.nuplanList-2 li.iconbg2 .jdutiao em {
+    background: #2ba5f3;
+}
+
+.nuplanList-2 li.iconbg3 .jdutiao em {
+    background: #2bb9f4;
+}
+
+.nuplanList-2 li.iconbg4 .jdutiao em {
+    background: #44cdfc;
+}
+
+.nuplan_header .bannerImg1 {
+    -webkit-animation: cloudy 2s forwards;
+    animation: cloudy 1s forwards;
+}
+
+@-webkit-keyframes cloudy {
+    0% {
+        opacity: 0;
+        top: 0;
+    }
+    100% {
+        opacity: 1;
+        top: 61px;
+    }
+}
+
+@keyframes cloudy {
+    0% {
+        opacity: 0;
+        top: 0;
+    }
+    100% {
+        opacity: 1;
+        top: 61px;
+    }
+}
+
+.nuplan_header .bannerImg2 {
+    -webkit-animation: cloudy2 2s forwards;
+    animation: cloudy2 3s forwards;
+}
+
+@-webkit-keyframes cloudy2 {
+    0% {
+        opacity: 0;
+        top: 83px;
+    }
+    100% {
+        opacity: 1;
+        top: 163px;
+    }
+}
+
+@keyframes cloudy2 {
+    0% {
+        opacity: 0;
+        top: 83px;
+    }
+    100% {
+        opacity: 1;
+        top: 163px;
+    }
+}
+
+.nuplan_header .bannerImg3 {
+    -webkit-animation: cloudy3 2s forwards;
+    animation: cloudy3 3s forwards;
+}
+
+@-webkit-keyframes cloudy3 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes cloudy3 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.nuplan_header .bannerImg5 {
+    -webkit-animation: cloudy5 1s forwards;
+    animation: cloudy5 1s forwards;
+}
+
+@-webkit-keyframes cloudy5 {
+    0% {
+        opacity: 0;
+        bottom: -20%
+    }
+    100% {
+        opacity: 1;
+        bottom: -3%;
+    }
+}
+
+@keyframes cloudy5 {
+    0% {
+        opacity: 0;
+        bottom: -20%
+    }
+    100% {
+        opacity: 1;
+        bottom: -3%;
+    }
+}
+
+.nuplan_header .bannerImg4 {
+    -webkit-animation: cloudy4 3s forwards;
+    animation: cloudy4 3s forwards;
+}
+
+@-webkit-keyframes cloudy4 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes cloudy4 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.numberList li.hover .jdutiao i em {
+    -webkit-animation: jdutiao 1s forwards;
+    animation: jdutiao 1s forwards;
+}
+
+@-webkit-keyframes jdutiao {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 100%
+    }
+}
+
+@keyframes jdutiao {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 100%
+    }
+}
+
+.cung label {
+    opacity: 0;
+    position: absolute;
+    top: 2px;
+    background:url(${basePath3}images/zt/nuplan/iconhhshs.png);
+    width: 478px;
+    height: 263px;
+    padding: 23px;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 38px;
+}
+
+.cung label.d {
+    left: 2px;
+}
+
+.cung label.b {
+    right: 0;
+}
+
+.cung label.f {
+    text-align: right;
+}
+
+.cung label.hover {
+    -webkit-animation: cloudy4 1s forwards;
+    animation: cloudy4 1s forwards;
+}
+
+.cung label.d.hover {
+    left: 1px;
+    background:url(${basePath3}images/zt/nuplan/iconhs.png) bottom center no-repeat;
+}
+
+.cung label.b.hover {
+    background:url(${basePath3}images/zt/nuplan/iconhs-2.png) bottom center no-repeat;
+}
+
+.cung label.c.hover {
+    top: 3px;
+    background:url(${basePath3}images/zt/nuplan/iconhs-3.png) bottom center no-repeat;
+}
+
+.cung label.f.hover {
+    top: 4px;
+    background:url(${basePath3}images/zt/nuplan/iconhs-4.png) bottom center no-repeat;
+}
+
+.cung a {
+    color: #fff;
+    text-decoration: underline
+}
+
+.cung a:hover {
+    color: #49c4f9;
+    text-decoration: underline
+}
+
+.nuplanList-2 li b {
+    font-weight: normal;
+}

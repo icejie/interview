@@ -1,0 +1,41 @@
+@charset "utf-8";
+.ZTmain{line-height:30px; font-size:16px; color:#494f5b;}
+.ZTbox{width:1000px;margin:0 auto;}
+.ZTheader,.ZTheader .ZTbox{height:355px;background:url(../../images/zt/safe/header.jpg) top center no-repeat;}
+.ZTbox h2{font-size:40px; line-height:50px; padding-top:50px; text-align:center; font-weight:normal; color:#596274;}
+.ZTbanner,.ZTbanner .ZTbox{height:670px;background:url(../../images/zt/safe/bg1.jpg) top center no-repeat #fff;}
+.ZTbannerList{ height:360px;position:relative;width:960px; margin:0 auto;}
+.ZTbannerBox{position:absolute;top:0;left:0;width:100%; height:100%;display:none;}
+.ZTbannerImg{position:absolute;right:10px;top:5px;width:400px;height:350px;}
+.ZTbannerTxt{position:absolute;left:10px;top:110px;}
+.ZTbannerTxt b{ font-size:24px; color:#36a1e7;}
+.ZTbannerTxt p{padding:20px 0;}
+.ZTbannerTxt a.nu_button{width:120px;}
+.ZTctr{height:120px; background:#e7e8ed;border-radius:8px;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:5px;margin-top:20px;}
+.ZTctrBox{width:900px;height:100%;position:relative; margin:0 auto;}
+.ZTctrBox ul{width:100%;height:100%; font-size:14px;position:relative;}
+.ZTctrBox li{display:inline;float:left;width:180px; height:100%;}
+.ZTctrBox li a{display:block; width:128px;text-align:center; margin:0 auto; line-height:15px; padding-top:75px; height:45px;background:url(../../images/zt/safe/icon.png) no-repeat;}
+.ZTctrBox li a:hover{ color:#494f5b;}
+.ZTctrBox li.ZTctrLi1 a{background-position:0px 0px;}
+.ZTctrBox li.ZTctrLi2 a{background-position:-128px 0px;}
+.ZTctrBox li.ZTctrLi3 a{background-position:-256px 0px;}
+.ZTctrBox li.ZTctrLi4 a{background-position:-384px 0px;}
+.ZTctrBox li.ZTctrLi5 a{background-position:-512px 0px;}
+.ZTctrBox li.on a{ color:#fff;}
+.ZTctrBox li.ZTctrLi1.on a{background-position:0px -122px;}
+.ZTctrBox li.ZTctrLi2.on a{background-position:-128px -122px;}
+.ZTctrBox li.ZTctrLi3.on a{background-position:-256px -122px;}
+.ZTctrBox li.ZTctrLi4.on a{background-position:-384px -122px;}
+.ZTctrBox li.ZTctrLi5.on a{background-position:-512px -122px;}
+.ZTctrCover{position:absolute;top:-14px;width:180px;height:156px;bottom:170px;}
+.ZTctrCover span{display:block; width:128px; height:156px; margin:0 auto;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;background:#0084cf;}
+.ZTlaw{height:340px;background:url(../../images/zt/safe/bg2.jpg) top center no-repeat #040404;}
+.ZTlaw p{text-align:center; color:#8f99ae; margin-top:25px;}
+.ZTlaw a{display:block; text-align:center; color:#fff; font-size:16px; width:195px; height:50px; line-height:50px; margin:30px auto 0; background:#ed7c5e;}
+.ZTlaw a:hover{ color:#fff;}
+.ZTweb{background:#f4f4f5; padding-bottom:40px;}
+.ZTweb ul{margin-top:50px;padding-top:130px; height:180px; background:url(../../images/zt/safe/icon2.png) top center no-repeat;}
+.ZTweb li{float:left; display:inline; width:33%;text-align:center; }
+.ZTweb li span{font-size:20px; color:#000;}
+.ZTweb li p{font-size:14px; color:#797f8f; padding-top:20px; margin:0 25px;}

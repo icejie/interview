@@ -1,0 +1,30 @@
+.about_kingsland a{ color:#00c2a9;}
+.about_title{ color:#00c2a9;border-color:#00c2a9}
+.about_kingsland_focus{height:380px; width:650px; border:1px solid #000; margin:25px auto 0; position:relative;}
+.about_kingsland_focus span{ padding-left:20px; background:#00c2a9; color:#fff; font-size:14px; display:block; height:30px; line-height:30px;}
+.about_kingsland_focus span em{ font-size:20px; color:#ffff00;}
+.about_kingsland_focus_control{position:absolute; right:0; bottom:30px; background:#000; z-index:99;filter:alpha(opacity=80);opacity:0.80;}
+.about_kingsland_focus_control li{ display:inline; float:left; font-size:14px; width:24px; height:26px; line-height:24px;border-left:1px solid #9faab5; text-align:center;}
+.about_kingsland_focus_control li a{display:block; color:#fff;border:1px solid #000;}
+.about_kingsland_focus_control li a.on{border-color:#fff;}
+.about_kingsland_show{}
+.about_kingsland_show li{width:480px; height:260px; margin:50px 30px 0; overflow:hidden; position:relative;}
+.about_kingsland_show li div{ position:absolute;left:0; top:190px; padding:20px 30px; width:420px; height:220px;background:url(../../images/aboutus/kingsland/show_bg.png); color:#fff;}
+.about_kingsland_show li div h3{text-align:center;}
+.about_kingsland_media{}
+.about_kingsland_media li{width:50%;}
+.about_kingsland_media li span{font-size:14px; color:#838383;}
+.about_kingsland_media li img{margin-top:10px;}
+.about_kingsland_prize{}
+.about_kingsland_prize li{padding:10px 20px 10px 40px; width:418px; height:103px; border:1px solid #999; margin:50px 30px 0; background:#fff; position:relative; font-weight:bold;}
+.about_kingsland_prize li em{position:absolute; left:-28px; top:-1px; display:block; width:50px; height:50px; line-height:50px; background:#00c2a9; text-align:center; color:#fff; font-size:34px;}
+.about_kingsland_prize li img{float:right;}
+.layer_about{background:#fff; width:980px; left:50%; top:50%; margin-left:-515px; padding:30px 40px; position: fixed; z-index:200;}
+.layer_about .about_show{display:none;}
+.layer_aboutbox {font-size:14px; line-height:30px;}
+.layer_aboutbox .about_team_text{width:700px; padding:0;}
+.layer_aboutbox .about_team_pic{width:250px; height:330px; border:1px solid #ecf6ff;}
+.layer_aboutbox .about_team_pic img{width:100%;height:100%;}
+.layer_aboutbox h3{ font-weight:normal; font-size:18px; line-height:40px;color:#0460be;}
+.layer_aboutbox .lh_20{line-height:20px;}
+.about_close{position:absolute; right:15px; top:15px; height:30px; width:22px; height:22px;background:url(../../images/aboutus/about_close.png) no-repeat; }

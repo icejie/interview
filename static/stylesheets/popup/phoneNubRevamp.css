@@ -1,0 +1,182 @@
+.modal_layer{
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 100001;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.4;
+    width: 1903px;
+}
+.fx_win{
+	display: none;
+    z-index: 100002;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-top: -256px;
+    margin-left: -320px;
+    width: 640px;
+    height: 512px;
+    background: #ffffff;
+    border-radius: 4px;
+
+}
+.fx_win h2{
+	height: 60px;
+	text-align: center;
+	color: #666666;
+	font-size: 22px;
+	line-height: 60px;
+	background: #fafafa;
+	border-bottom: 1px solid #f3f3f3;
+}
+.fx_win .shut{
+	width: 25px;
+    height: 25px;
+    line-height: 18px;
+    position: absolute;
+    font-size: 38px;
+    right: 10px;
+    top: 10px;
+    color: #c8c8c8;
+}
+.fx_win .des{
+	color: #f77e1d;
+	font-size: 14px;
+	text-align: center;
+	background: #fff6d7;
+	height:38px;
+	line-height:38px;
+}
+.fx_win .popupContList{
+    padding-top: 50px;
+}
+.fx_win .popupContList li{
+    overflow: hidden;
+}
+.fx_win .heightL38{
+    height: 38px;
+    line-height: 38px;
+}
+.fx_win .firstLine{
+    height: 38px;
+    line-height: 38px;
+    margin-bottom: 30px;
+}
+.fx_win .sortName{
+    float: left;
+    width: 200px;
+    color: #767676;
+    font-size: 14px;
+    margin-right: 30px;
+    text-align: right;
+    height: 38px;
+    line-height: 38px;
+    display: block;
+}
+.fx_win .msgName{
+    width: 380px;
+    float: left;
+}
+.fx_win .msgName input{
+    width: 264px;
+    height: 38px;
+    line-height: 38px;
+    border:1px solid #cdcdcd;
+    border-radius: 5px;
+    padding-left: 12px;
+}
+.fx_win .msgName .verCode{
+    width: 155px;
+}
+.fx_win .msgName .getCodeBtn{
+    color: #f77e1d;
+    border:1px solid #f77e1d;
+    border-radius: 5px;
+    height: 30px;
+    line-height: 30px;
+    width: 88px;
+    margin-left: 16px;
+    display: inline-block;
+    margin-top: 4px;
+    font-style: normal;
+    text-align: center;
+}
+.fx_win .msgName .error {
+    height: 30px;
+    line-height: 30px;
+    color: #f06f2e;
+    font-size: 12px;
+    display: block;
+    margin-bottom: 10px;
+}
+.fx_win .msgName .userName,.fx_win .msgName .bankName,.fx_win .msgName .bankNum{
+    font-size: 16px;
+    color: #494949;
+    height: 35px;
+    line-height: 35px;
+    display: block;
+}
+/*弹窗 end*/
+
+.mine.accountMsg{
+
+}
+.accountMsg li{
+    margin-top: 65px;
+}
+.accountMsg .msgName{
+    font-size: 14px;
+    color: #666666;
+    width: 215px;
+    text-align: right;
+    margin-right: 30px;
+    display: inline-block;
+}
+.msgInfo{
+    font-size: 16px;
+    color: #494949;
+    text-align: left;
+}
+.msgPhoneBtn{
+    color: #f06f2e;
+    text-decoration:underline;;
+    font-size: 14px;
+}
+.msgPhoneBtn:hover{
+
+}
+.unbind{
+    color: #f8f8f8;
+    font-size: 16px;
+    width: 175px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #f77e1d;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 80px;
+    margin-left: 235px;
+}
+.unbind:hover{
+
+}
+.affirmBtn{
+    width: 168px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    display: inline-block;
+    background: #f77e1d;
+    color: #ffffff;
+    font-size: 16px;
+    margin-left: 234px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.affirmBtn:hover{
+    background: #f26c00;
+}

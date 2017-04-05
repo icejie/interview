@@ -1,0 +1,282 @@
+.user_box{
+	background: url(../../images/user/userBG.jpg) top center no-repeat;
+	border: 1px solid #cdcdcd;
+	width: 799px;
+	padding: 0;
+	height: auto;
+}
+.lastLoginTime{
+	color: #ffffff;
+	text-align: right;
+	height:42px;
+	line-height:42px;
+	padding-right:10px;
+}
+.basicInformation{
+	background: #FFFFFF;
+	position: relative;
+	width: 778px;
+	margin: 0 10px;
+	height: 128px;
+	-moz-box-shadow:0px 4px 10px #f3f7fc; 
+	-webkit-box-shadow:0px 4px 10px #f3f7fc; 
+	box-shadow:0px 4px 10px #f3f7fc;
+}
+.user_footer{
+	height: 86px;
+	background: #f8fcff;
+}
+.moneyCont{
+	margin-left: 68px;
+	padding-top: 15px;
+
+}
+.details{
+	width: 400px;
+	margin-right: 45px;
+	float: left;
+}
+.details .det1{
+	font-size: 16px;
+	color: #2579cb;
+}
+.details .det2{
+	font-size: 28px;
+	color: #f06f2e;
+}
+.details .det3{
+	font-size: 16px;
+	color: #f06f2e;
+}
+.details .det4{
+	font-size: 14px;
+	color: #888888;
+}
+.details .det5{
+	font-size: 14px;
+	color: #f06f2e;
+}
+.btn{
+	float: left;
+	width: 140px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	font-size: 14px;
+	color: #ffffff;	
+	background: #2579cb;
+	border-radius: 4px;
+	display: inline-block;
+	margin-top: 10px;
+}
+.user_ICON{
+	position: absolute;
+	top: -25px;
+	left: 20px;
+	width: 96PX;
+	height: 126px;
+}
+.headImg{
+	width: 92px;
+	height: 92px;
+	display: inline-block;
+}
+.headImg img{
+	width: 92px;
+}
+.user_info{
+	margin-left: 130px;
+	width: 196px;
+
+}
+.safetyLevel{
+	color: #106cba;
+}
+.safetyLevel em{
+	color: #e25d34;
+	padding-left: 6px;
+}
+.userName{
+	font-size: 22px;
+	color: #106cba;
+	height: 52px;
+	line-height: 52px;
+	display: inline-block;
+}
+.giftIcon{
+	background: url(../../images/user/gift.png) no-repeat;
+	width: 15px;
+	height: 18px;
+	display: inline-block;
+}
+.vipIcon{
+	background: url(../../images/user/vip0.png) no-repeat;
+	width: 71px;
+	height: 24px;
+	display: inline-block;
+}
+.honorIcon{
+	overflow: hidden;
+}
+.honorIcon li{
+	margin: 10px 12px 0 0;
+	width: 28px;
+	height: 29px;
+}
+.phoneIcon{
+	background: url(../../images/user/phoneP.png) no-repeat;
+}
+.phoneIcon.get{
+	background: url(../../images/user/phoneA.png) no-repeat;
+}
+.passwordIcon{
+	background: url(../../images/user/passwordP.png) no-repeat;
+}
+.passwordIcon.get{
+	background: url(../../images/user/passwordA.png) no-repeat;
+}
+.emailIcon{
+	background: url(../../images/user/emailP.png) no-repeat;
+}
+.emailIcon.get{
+	background: url(../../images/user/emailA.png) no-repeat;
+}
+.authenticationIcon{
+	background: url(../../images/user/authenticationP.png) no-repeat;
+}
+.authenticationIcon.get{
+	background: url(../../images/user/authenticationA.png) no-repeat;
+}
+.user_infoO{
+	height: 90px;
+	border-right: 1px solid #eeeeee;
+	width: 190px;
+	margin: 17px 0 0 30px;
+}
+.user_infoO li{
+	position: relative;
+	float: left;
+}
+.serviceICon{
+	background: url(../../images/user/serviceICon.png) no-repeat;
+	width: 31px;
+	height: 25px;
+	display: inline-block;
+	margin-left: 66px;
+}
+.serviceTips{
+    background: #f7f7f7;
+    position: absolute;
+    top: 35px;
+    left: -5px;
+    border: 1px dotted #d9d9d9;
+    line-height: 20px;
+    padding: 0 5px;
+    width: 108px;
+    display: block;
+    z-index: 2;
+    box-shadow: 0 2px 3px rgba(44,44,44,0.2);
+}
+.serviceTips i{
+	background: url(../../images/iconCunjiao2.png) center top no-repeat;
+    position: absolute;
+    top: -8px;
+    left: 80px;
+    width: 18px;
+    height: 8px;
+    float: left;
+}
+.instationMsg{
+	background: url(../../images/user/msg.png) no-repeat;
+	width: 28px;
+	height: 25px;
+	display: block;
+	margin-left: 12px;
+}
+.siMsg{
+	height: 75px;
+	position: relative;
+}
+.riskMsg{
+	padding-right: 48px;
+	color: #106cba;
+}
+.supIcon{
+	vertical-align:super;
+	background: #f45a31;
+	border-radius: 10px;
+}
+.integral{
+
+}
+.signIn{
+	width: 140px;
+	padding-left: 40px;
+	margin-top: 33px;
+}
+.signInBtn{
+	width: 140px;
+	height: 36px;
+	line-height: 36px;
+	background: #f77e1d;
+	color: #ffffff;
+	display: block;
+	border-radius: 5px;
+
+}
+.signInBtn .signInIcon{
+	background: url(../../images/user/signIn.png) no-repeat;
+	height: 18px;
+	width: 18px;
+	display: inline-block;
+	margin:9px 10px 0 42px;
+
+}
+.signInBtn .signInMsg{
+
+}
+.userTitle{
+	height: 30px;
+	padding-left: 20px;
+}
+.signInNum{
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	color: #767676;
+}
+.essentialColor{
+	color: #f06f2e;
+}
+.earningsCont{
+	overflow: hidden;
+	height: auto;
+	padding-top: 40px;
+}
+.earningsAll{
+	width: 365px;
+	height: 160px;
+}
+.earningsDet{
+	width: 294px;
+	overflow: hidden;
+}
+.earningsDet li{
+	height: 14px;
+	line-height: 14px;
+	margin-bottom: 25px;
+}
+.earningsDet li span{
+	display: inline-block;
+	height: 14px;
+	line-height: 14px;
+}
+.earningsDet li i{
+	font-style: normal;
+}
+.query{
+	background: url(../../images/iconhome.jpg) no-repeat;
+	width: 14px;
+	height: 14px;
+	display: inline-block;
+}
