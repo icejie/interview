@@ -55,3 +55,5 @@
 .foot_copy_link_a a{padding-left:10px;}
 .waiting_div{width:90px;margin-right:16px;float:left;line-height:30px;}
 .topbar{width:100%;position:relative;z-index:6;}
+.flink a{padding-right: 30px;}
+.flink em{padding: 0 30px;}

@@ -1,5 +1,4 @@
 @charset "utf-8";
-/**header**/
 .header_tip{background:#ffd570;font-size:16px; line-height:40px; text-align:center;}
 .header_tip a{display:block; width:100%;color:#b83907;background:#ffd570;}
 .dep_logo{color:#fff; background:#fb7e22; font-size:12px; float:left; line-height:20px; margin:-10px 0 0 5px; padding: 0 3px;border-radius:5px 5px 5px 1px;}
