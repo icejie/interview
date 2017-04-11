@@ -19,8 +19,8 @@ router.get('/member', function(req, res) {
 });
 
 // 定义 about 页面的路由
-router.get('/abouts', function(req, res) {
-    res.render('/abouts/cost', { title: title });
+router.get('/abouts/contact', function(req, res) {
+    res.render('views/abouts/contact.hbs', { title: title });
 });
 
 
