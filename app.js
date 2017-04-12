@@ -6,9 +6,8 @@ var router = require('./routers/module.js');
 
 
 var hbs = epresshbs.create({
-    defaultLayout: 'main',
     extname: ".html",
-    partialsDir: "static/views/"
+    partialsDir: "static/views"
 })
 
 
@@ -17,10 +16,13 @@ app.use('/',router);  //路由控制器
 
 
 
+app.engine('html', hbs.engine);
+app.set('view engine', 'html'); // 用hbs作为模版引擎
+app.set('views', path.join(__dirname, '/static/views')); // 模版所在路径
 
-app.engine('hbs', hbs.engine);
-app.set('view engine', 'hbs'); // 用hbs作为模版引擎
-app.set('views', path.join(__dirname, '/static')); // 模版所在路径
+
+
+
 
 
 app.get('/', function(req, res) {

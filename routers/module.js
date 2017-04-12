@@ -13,14 +13,9 @@ router.use(function timeLog(req, res, next) {
 router.get('/index', function(req, res) {
     res.render('index', { title: title });
 });
-// 定义 member 页面的路由
-router.get('/member', function(req, res) {
-    res.render('member', { title: title });
-});
-
 // 定义 about 页面的路由
 router.get('/abouts/contact', function(req, res) {
-    res.render('views/abouts/contact.hbs', { title: title });
+    res.render('views/abouts/contact', { title: title });
 });
 
 
