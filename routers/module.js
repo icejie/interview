@@ -14,8 +14,8 @@ router.get('/index', function(req, res) {
     res.render('index', { title: title });
 });
 // 定义 about 页面的路由
-router.get('/abouts/contact', function(req, res) {
-    res.render('views/abouts/contact', { title: title });
+router.get('/cost', function(req, res) {
+    res.render('abouts/cost', { title: title });
 });
 
 
